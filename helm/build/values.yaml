@@ -1,0 +1,15 @@
+app:
+  name: predemo-uth-wind-turbine-app
+  namespace: predemo-uth
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/predemo-uth-wind-turbine
+  org: WindTurbineInc
+  name: predemo-uth-wind-turbine
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: predemo-uth/wind-turbine-app
+  tag: latest
